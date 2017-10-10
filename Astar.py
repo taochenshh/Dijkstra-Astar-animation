@@ -129,8 +129,6 @@ class AStar:
 
 
 if __name__ == "__main__":
-    import time
-    time.sleep(1)
     map_file = 'map1.txt'
     mapmatrix, start, end = read_mapfile(map_file)
     astar = AStar(mapmatrix, start, end)
